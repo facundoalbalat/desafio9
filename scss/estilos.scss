@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+@import 'variables';
+@import 'extend';
+@import 'main';
+@import 'header';
+
+
+body {
+	background: url('../images/back2.jpeg');
+	background-size: cover;
+}
+
+main section article.personajes h2 {
+	background: $rojo;
+}
+
+main section article.casting h2 {
+	background: $verde;
+}
+
+main section article.rodaje h2 {
+	background: $azul;
+}
+
+
+

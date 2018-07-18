@@ -1,0 +1,24 @@
+header {
+	@extend %imagenEncabezado;
+	
+	h1 {
+		@extend %tituloEncabezado;
+
+		span {
+			color: $rojo;
+		} // cierra span
+	} // cierra 
+} // cierra header
+
+
+@media screen and (min-width: 1025px) {
+	header {
+		padding: 30px 20px;
+		background-position: -300px top;
+
+		h1 {
+			text-align: right;
+			font-size: 2.5rem;
+		} // cierra h1
+	} // cierra header
+}

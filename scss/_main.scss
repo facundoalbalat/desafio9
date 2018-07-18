@@ -1,0 +1,77 @@
+main {
+	width: 90%;
+	background: $blanco;
+	margin: 30px auto;
+	padding: 15px;
+	
+	section {
+		margin-top: 20px;
+
+		article {
+			margin-bottom: 20px;
+	
+			h2 {
+				@extend %responsiveh2;
+			} // cierra h2
+
+			ul {
+				@extend %ulResponsive;
+
+				li {
+					@extend %liResponsive;
+				} // cierra li
+			} // cierra ul
+
+			p {
+				@extend %parrafosResponsive;
+			} // cierra p
+		} // cierra article
+	} // cierra section
+} // cierra main
+
+
+@media screen and (min-width: 1025px) {
+	main {
+		width: 70%;
+
+		section {
+			display: flex;
+			justify-content: space-between;
+
+			article {
+				width: 30%;
+
+				h2 {
+					font-size: 2rem;
+					text-align: left;
+					padding: 10px 5px;
+				} // cierra h2
+
+				ul {
+					text-align: left;
+					padding: 0 5px;
+
+					li {
+						font-size: 1.2rem;
+
+					} // cierra li
+				} // cierra ul
+
+				p {
+					font-size: 1.2rem;
+					padding: 0 5px;
+				} // cierra p
+			} // cierra article
+
+			article.personajes {
+				border-right: 5px dotted red;
+				padding-right: 15px;
+			} // cierra .personajes
+
+			article.casting {
+				border-right: 5px dotted green;
+				padding-right: 15px;
+			} // cierra .casting
+		} // cierra section
+	} // cierra main
+}

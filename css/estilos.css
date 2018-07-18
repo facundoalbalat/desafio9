@@ -1,0 +1,152 @@
+/* line 1, C:/Users/facun/Desktop/StarWars/scss/estilos.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 1, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+main section article h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+/* line 14, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+main section article p {
+  font-size: 1.1rem;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+/* line 20, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+main section article ul li {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+/* line 25, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+main section article ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 30, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+header {
+  background: url("../images/back1.jpg");
+  background-size: 100%;
+  padding: 25px 10px;
+}
+
+/* line 36, C:/Users/facun/Desktop/StarWars/scss/_extend.scss */
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* line 1, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+main {
+  width: 90%;
+  background: #fff;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+/* line 7, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+main section {
+  margin-top: 20px;
+}
+
+/* line 10, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+main section article {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+  /* line 34, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main {
+    width: 70%;
+  }
+  /* line 37, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 41, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article {
+    width: 30%;
+  }
+  /* line 44, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 10px 5px;
+  }
+  /* line 50, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article ul {
+    text-align: left;
+    padding: 0 5px;
+  }
+  /* line 54, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article ul li {
+    font-size: 1.2rem;
+  }
+  /* line 60, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article p {
+    font-size: 1.2rem;
+    padding: 0 5px;
+  }
+  /* line 66, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article.personajes {
+    border-right: 5px dotted red;
+    padding-right: 15px;
+  }
+  /* line 71, C:/Users/facun/Desktop/StarWars/scss/_main.scss */
+  main section article.casting {
+    border-right: 5px dotted green;
+    padding-right: 15px;
+  }
+}
+
+/* line 7, C:/Users/facun/Desktop/StarWars/scss/_header.scss */
+header h1 span {
+  color: red;
+}
+
+@media screen and (min-width: 1025px) {
+  /* line 15, C:/Users/facun/Desktop/StarWars/scss/_header.scss */
+  header {
+    padding: 30px 20px;
+    background-position: -300px top;
+  }
+  /* line 19, C:/Users/facun/Desktop/StarWars/scss/_header.scss */
+  header h1 {
+    text-align: right;
+    font-size: 2.5rem;
+  }
+}
+
+/* line 13, C:/Users/facun/Desktop/StarWars/scss/estilos.scss */
+body {
+  background: url("../images/back2.jpeg");
+  background-size: cover;
+}
+
+/* line 18, C:/Users/facun/Desktop/StarWars/scss/estilos.scss */
+main section article.personajes h2 {
+  background: red;
+}
+
+/* line 22, C:/Users/facun/Desktop/StarWars/scss/estilos.scss */
+main section article.casting h2 {
+  background: green;
+}
+
+/* line 26, C:/Users/facun/Desktop/StarWars/scss/estilos.scss */
+main section article.rodaje h2 {
+  background: blue;
+}
+
+/*# sourceMappingURL=../css/estilos.map */
