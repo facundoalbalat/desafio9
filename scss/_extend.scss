@@ -1,14 +1,15 @@
+%mainResponsive {
+	width: 90%;
+	background: $blanco;
+	margin: 30px auto;
+	padding: 15px;
+}
+
 %responsiveh2 {
 	text-align: center;
 	font-size: 1.3rem;
 	margin-bottom: 10px;
 	padding: 10px 0;
-}
-
-%webh2 {
-	font-size: 2rem;
-	text-align: left;
-	padding: 10px 5px;
 }
 
 %parrafosResponsive {
