@@ -1,0 +1,20 @@
+@mixin webh2 ($fz, $ta, $padding) {
+	font-size: $fz;
+	text-align: $ta;
+	padding: $padding;
+}
+
+@mixin sectionWeb ($display, $jc) {
+	display: $display;
+	justify-content: $jc;
+}
+
+@mixin ulWeb ($ta, $padding) {
+	text-align: $ta;
+	padding: $padding;
+}
+
+@mixin claseArticulo ($br, $pr) {
+	border-right: $br;
+	padding-right: $pr;
+}
